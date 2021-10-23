@@ -21,7 +21,7 @@ you will need the following packages installed with pip:
 
 ```bash
     👉pyttsx3
-    👉pyaudio
+    👉pyaudio (if you face  issues , use pipwin)
     👉speech_recognition as sr
     👉wikipedia
     👉webbrowser
