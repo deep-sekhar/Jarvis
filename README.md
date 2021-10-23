@@ -9,7 +9,7 @@
 To run it on your system 
 
     -clone the repo
-    -install pyhton 3.9.5
+    -install python 3.9.5
     -install required dependencies
 
     
