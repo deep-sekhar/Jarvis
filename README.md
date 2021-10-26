@@ -3,7 +3,7 @@
 
     Automation using python
 
-![Demo](https://github.com/deep-sekhar/Jarvis/blob/main/Readme%20Promo/Black%20and%20Red%20Cool%20and%20Funky%20Gaming%20Logo.gif?raw=true&style=centerme))
+![Demo](https://github.com/deep-sekhar/Jarvis/blob/main/Readme%20Promo/Black%20and%20Red%20Cool%20and%20Funky%20Gaming%20Logo.gif?raw=true&style=centerme)
 ## 🗒 Documentation 
 
 To run it on your system 
@@ -20,11 +20,11 @@ To run it on your system
 you will need the following packages installed with pip:
 
 ```bash
-    👉pyttsx3
-    👉pyaudio (if you face  issues , use pipwin)
-    👉speech_recognition
-    👉wikipedia
-    👉webbrowser
+   👉 pyttsx3
+   👉 pyaudio (if you face  issues , use pipwin)
+   👉 speech_recognition
+   👉 wikipedia
+   👉 webbrowser
 ```
     
 ## 🧑 Authors
