@@ -3,7 +3,10 @@
 
     Automation using python
 
-![Demo](https://github.com/deep-sekhar/Jarvis/blob/main/Readme%20Promo/Black%20and%20Red%20Cool%20and%20Funky%20Gaming%20Logo.gif?raw=true&style=centerme)
+<p align="center">
+  <img src="https://github.com/deep-sekhar/Jarvis/blob/main/Readme%20Promo/Black%20and%20Red%20Cool%20and%20Funky%20Gaming%20Logo.gif?raw=true" alt="animated" />
+</p>
+
 ## 🗒 Documentation 
 
 To run it on your system 
