@@ -53,15 +53,12 @@ if __name__ == "__main__":
     while True:
         cmmd = takecommand().lower()
 
-        if "jarvis" in cmmd:
-            # cmmd = ' '.join(list(filter(jcmd,)))
-            print(type(cmmd))
-            cmmd  = cmmd.split(' ')  
-            cmmd = ' '.join([word for word in cmmd if word != "jarvis"])
-            print(cmmd)  
-        else: 
-            cmmd = ""
-            # continue
+        # if "jarvis" in cmmd:
+        #     # cmmd = ' '.join(list(filter(jcmd,)))
+        #     cmmd  = cmmd.split(' ')  
+        #     cmmd = ' '.join([word for word in cmmd if word != "jarvis"])
+        # else: 
+        #     cmmd = ""
     
         if "wikipedia" in cmmd:
             wikisearch(cmmd)
