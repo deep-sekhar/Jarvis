@@ -6,6 +6,7 @@ import speech_recognition as sr
 import webbrowser
 from Commands.wiki import wikisearch
 from Commands.all_paths import all_paths
+import subprocess
 # import pyaudio
 
 engine = pyttsx3.init('sapi5')
@@ -83,7 +84,8 @@ if __name__ == "__main__":
         elif cmmd == "update all working folders":
             gfiles = all_paths.gitpaths
             for gpath in gfiles:
-                os.startfile(gpath)
+                subprocess.call([gpath])
+                # os.startfile(gpath)
             speak("All git directories have been pushed to their respective repos")
 
         elif cmmd == "shutdown":
