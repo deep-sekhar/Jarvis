@@ -52,10 +52,15 @@ if __name__ == "__main__":
     while True:
         cmmd = takecommand().lower()
 
-        # if "jarvis" in cmmd:
-        #     cmmd = cmmd.replace("jarvis","")  
-        # else: 
-        #     continue
+        if "jarvis" in cmmd:
+            # cmmd = ' '.join(list(filter(jcmd,)))
+            print(type(cmmd))
+            cmmd  = cmmd.split(' ')  
+            cmmd = ' '.join([word for word in cmmd if word != "jarvis"])
+            print(cmmd)  
+        else: 
+            cmmd = ""
+            # continue
     
         if "wikipedia" in cmmd:
             wikisearch(cmmd)
@@ -76,7 +81,7 @@ if __name__ == "__main__":
             os.startfile(all_paths.vspath)
 
         elif cmmd == "update all working folders":
-            gfiles = all_paths.gitpaths;
+            gfiles = all_paths.gitpaths
             for gpath in gfiles:
                 os.startfile(gpath)
             speak("All git directories have been pushed to their respective repos")
