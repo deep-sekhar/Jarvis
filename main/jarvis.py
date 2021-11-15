@@ -93,7 +93,7 @@ if __name__ == "__main__":
             os.chdir(cpath)
             speak("All git directories have been pushed to their respective repos")
 
-        elif cmmd == "push your updates":
+        elif cmmd == "update your codebase":
             os.startfile('automated.bat')
             speak("My codebase has been updated")
             
