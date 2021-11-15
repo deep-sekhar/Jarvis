@@ -8,6 +8,6 @@ def wikisearch(cmmd):
 
         try:
             results = wikipedia.summary(query,2)
-            mainspeak("Here is what I found  "+ results)
+            mainspeak("Here is what I found,  "+ results)
         except Exception as e :
             mainspeak("could not find anything relevant in wikipedia Sir")

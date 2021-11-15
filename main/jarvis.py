@@ -1,4 +1,6 @@
 # PACKAGES NEEDED 
+
+# -------------------------------
 import os
 import pyttsx3
 import datetime
@@ -8,6 +10,7 @@ from Commands.wiki import wikisearch
 from Commands.all_paths import all_paths
 import subprocess
 # import pyaudio
+# -------------------------------
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -78,13 +81,22 @@ if __name__ == "__main__":
         elif cmmd == "open code":
             os.startfile(all_paths.vspath)
 
-        elif cmmd == "update all working folders":
+        elif cmmd == "update":
+            cpath = (str)(os.getcwd())
+            print(type(cpath))
+            cauto = cpath+r'\automated.bat'
+            print(cauto)
             gfiles = all_paths.gitpaths
             for gpath in gfiles:
-                subprocess.call([gpath])
-                # os.startfile(gpath)
+                os.chdir(gpath)
+                os.startfile(cauto)
+            os.chdir(cpath)
             speak("All git directories have been pushed to their respective repos")
 
+        elif cmmd == "push your updates":
+            os.startfile('automated.bat')
+            speak("My codebase has been updated")
+            
         elif cmmd == "shutdown":
             speak("Have a nice day, Sir!")
             break
