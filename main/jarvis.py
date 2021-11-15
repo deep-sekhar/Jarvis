@@ -81,7 +81,7 @@ if __name__ == "__main__":
         elif cmmd == "open code":
             os.startfile(all_paths.vspath)
 
-        elif cmmd == "update":
+        elif cmmd == "update working folders":
             cpath = (str)(os.getcwd())
             print(type(cpath))
             cauto = cpath+r'\automated.bat'
