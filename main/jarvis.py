@@ -83,9 +83,9 @@ if __name__ == "__main__":
 
         elif cmmd == "update working folders":
             cpath = (str)(os.getcwd())
-            print(type(cpath))
+            # print(type(cpath))
             cauto = cpath+r'\automated.bat'
-            print(cauto)
+            # print(cauto)
             gfiles = all_paths.gitpaths
             for gpath in gfiles:
                 os.chdir(gpath)
