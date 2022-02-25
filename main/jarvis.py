@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
         elif cmmd == "update your codebase":
             os.startfile('automated.bat')
-            speak("My codebase has been updated")
+            speak("Your codebase has been updated")
             
         elif cmmd == "shutdown":
             speak("Have a nice day, Sir!")
